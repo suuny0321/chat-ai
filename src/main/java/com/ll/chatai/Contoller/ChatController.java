@@ -1,4 +1,4 @@
-package com.ll.chatai;
+package com.ll.chatai.Contoller;
 
 import org.springframework.ai.openai.OpenAiChatModel;
 import org.springframework.web.bind.annotation.*;
