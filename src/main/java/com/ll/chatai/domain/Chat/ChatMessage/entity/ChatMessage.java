@@ -1,8 +1,10 @@
 package com.ll.chatai.domain.Chat.ChatMessage.entity;
 
 
+import com.ll.chatai.domain.Chat.ChatRoom.entity.ChatRoom;
 import com.ll.member.global.jpa.BaceEntity;
 import jakarta.persistence.Entity;
+import jakarta.persistence.ManyToOne;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -18,4 +20,10 @@ public class ChatMessage extends BaceEntity {
     public ChatMessage() {
 
     }
+    public String writerName;
+    public String content;
+
+    @ManyToOne
+    private ChatRoom chatRoom;
 }
+;
