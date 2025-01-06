@@ -28,7 +28,7 @@ public class BaceEntity {
     @Id
     @GeneratedValue(strategy = IDENTITY)
     @EqualsAndHashCode.Include
-    private Long roomId;
+    private Long id;
 
     @CreatedDate
     @Getter

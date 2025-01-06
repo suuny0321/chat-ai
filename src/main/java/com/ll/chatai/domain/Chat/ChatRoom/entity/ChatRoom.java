@@ -3,7 +3,7 @@ package com.ll.chatai.domain.Chat.ChatRoom.entity;
 import com.ll.chatai.domain.Chat.ChatMessage.entity.ChatMessage;
 import com.ll.member.global.jpa.BaceEntity;
 import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
+
 import jakarta.persistence.OneToMany;
 import lombok.Getter;
 import lombok.Setter;
@@ -18,7 +18,7 @@ import java.util.List;
 @ToString(callSuper = true)
 @SuperBuilder
 public class ChatRoom extends BaceEntity {
-    public ChatRoom(){
+    public ChatRoom() {
 
     }
 
