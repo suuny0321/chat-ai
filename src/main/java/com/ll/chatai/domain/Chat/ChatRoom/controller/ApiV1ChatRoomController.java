@@ -1,9 +1,14 @@
 package com.ll.chatai.domain.Chat.ChatRoom.controller;
 
+import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/v1/chat/rooms")
+@RequiredArgsConstructor
+@CrossOrigin(
+        origins = "https://cdpn.io"
+)
 public class ApiV1ChatRoomController {
 
     @GetMapping

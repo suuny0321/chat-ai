@@ -24,7 +24,7 @@ import static lombok.AccessLevel.PROTECTED;
 @ToString // toString 메서드 자동 생성
 @EqualsAndHashCode // equals와 hashCode 메서드 자동 생성
 
-public class BaceEntity {
+public class BaseEntity {
     @Id
     @GeneratedValue(strategy = IDENTITY)
     @EqualsAndHashCode.Include

@@ -1,4 +1,4 @@
-package com.ll.member.global.redata;
+package com.ll.member.global.reData;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
